@@ -10,6 +10,7 @@ function App() {
     <>
     <div>
       <h2 data-testid='cypress-title'>Hello world</h2>
+      <input data-cy="submit" type="submit"/>
     </div>
     </>
   )
