@@ -13,3 +13,10 @@ Advanced debugging: Easily identify issues using the built-in debugging tools.
 Automatic waiting: Eliminates the need for manual delays in tests.
 Mocking network requests: Simulate server responses to test different scenarios.
 Running tests inside the browser: Tests execute directly within the browser for a more realistic user simulation.
+
+
+difference bet component testing and e2e    
+
+explain registration form - (refer bugfender)
+
+If test fails 
