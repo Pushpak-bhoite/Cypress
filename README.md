@@ -19,4 +19,6 @@ difference bet component testing and e2e
 
 explain registration form - (refer bugfender)
 
-If test fails 
+what if cypress test fails ?
+
+explain assertion used in our test

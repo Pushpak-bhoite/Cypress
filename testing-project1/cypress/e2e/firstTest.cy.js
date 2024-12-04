@@ -18,8 +18,10 @@ describe('Registration Form', () => {
 
   // Test case to ensure users can enter data into the registration form
   it('allows entering registration information', () => {
-    cy.get('[data-cy=name-input]').type('John Doe') // Type into the name input field
-    cy.get('[data-cy=email-input]').type('john@example.com') // Type into the email input field
+    cy.get('[data-cy=name-input]').type('Jo Doe') // Type into the name input field
+    cy.pause()
+    
+    cy.get('[data-cy=email-input]').type('john@example.com').pause() // Type into the email input field
     cy.get('[data-cy=password-input]').type('password123') // Type into the password input field
 
     // Verify that the inputs have the correct values after typing
